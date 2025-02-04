@@ -3,8 +3,10 @@
 import Banner from './Banner/page';
 import BannerCard from './BannerCard/page';
 import OurCommunity from './Community/page';
+import PartnerSection from './PartnerSection/page';
 import Programs from './Programs/page';
 import Services from './Services/page';
+import Testimonial from './TestimonialSection/page';
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Services />
       <Programs />
       <OurCommunity />
+      <PartnerSection />
+      <Testimonial />
     </div>
   );
 }
