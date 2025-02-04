@@ -1,5 +1,11 @@
 'use client';
 
+import Banner from './Banner/page';
+
 export default function Home() {
-  return <div>home page</div>;
+  return (
+    <div>
+      <Banner />
+    </div>
+  );
 }
