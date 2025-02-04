@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-4 gap-8 p-5">
           <div className="">
             <Image
-              src={'/assets/Logo-Main.png'}
+              src={'/assets/foterLogo.png'}
               width={176}
               height={44}
               alt="BULIPE Logo"
