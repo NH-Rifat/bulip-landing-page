@@ -65,13 +65,13 @@ The project is structured as follows:
 
   - File: [`app/home/Banner/page.jsx`](app/home/Banner/page.jsx)
 
-- **HomeCard**: Displays cards with various information on the home page.
+- **BannerCard**: Displays cards with various information on the home page.
 
-  - File: [`app/home/HomeCard/page.jsx`](app/home/HomeCard/page.jsx)
+  - File: [`app/home/HomeCard/page.jsx`](app/home/BannerCard/page.jsx)
 
-- **Hero**: Displays the hero section on the home page.
+- **service**: Displays the hero section on the home page.
 
-  - File: [`app/home/Hero/page.jsx`](app/home/Hero/page.jsx)
+  - File: [`app/home/Hero/page.jsx`](app/home/Service/page.jsx)
 
 - **Community**: Displays the community section on the home page.
 
@@ -88,91 +88,14 @@ The project is structured as follows:
 - **PartnerSection**: Displays the partner section on the home page.
   - File: [`app/home/PartnerSection/page.jsx`](app/home/PartnerSection/page.jsx)
 
-### Reusable Components
-
-- **CareerBanner**: Displays the career banner section.
-
-  - File: [`app/Components/Career/CareerBanner/page.jsx`](app/Components/Career/CareerBanner/page.jsx)
-
-- **CareerPlacement**: Displays the career placement section.
-
-  - File: [`app/Components/Career/CareerPlacement/page.jsx`](app/Components/Career/CareerPlacement/page.jsx)
-
-- **AppointmentForm**: Displays the appointment form.
-
-  - File: [`app/Components/ContactUs/Appointment/page.jsx`](app/Components/ContactUs/Appointment/page.jsx)
-
-- **ContactUsFAQ**: Displays the FAQ section for contact us.
-
-  - File: [`app/Components/ContactUs/FAQ/page.jsx`](app/Components/ContactUs/FAQ/page.jsx)
-
-- **HeaderOfContactUs**: Displays the header section for contact us.
-
-  - File: [`app/Components/ContactUs/Header/page.jsx`](app/Components/ContactUs/Header/page.jsx)
-
-- **LocationFAQ**: Displays the FAQ section for locations.
-
-  - File: [`app/Components/Location/FAQ/page.jsx`](app/Components/Location/FAQ/page.jsx)
-
-- **GlobalLocations**: Displays the global locations section.
-
-  - File: [`app/Components/Location/GlobalLocation/page.jsx`](app/Components/Location/GlobalLocation/page.jsx)
-
-- **BannerLocations**: Displays the location banner section.
-
-  - File: [`app/Components/Location/LocationBanner/page.jsx`](app/Components/Location/LocationBanner/page.jsx)
-
-- **NewsArticleCard**: Displays the news article card.
-
-  - File: [`app/Components/News/NewsArticalCard/page.jsx`](app/Components/News/NewsArticalCard/page.jsx)
-
-- **NewsBanner**: Displays the news banner section.
-
-  - File: [`app/Components/News/NewsBanner/page.jsx`](app/Components/News/NewsBanner/page.jsx)
-
-- **NewsCarousel**: Displays the news data carousel.
-
-  - File: [`app/Components/News/NewsData/page.jsx`](app/Components/News/NewsData/page.jsx)
-
-- **CertificationPathway**: Displays the certification pathway section.
-
-  - File: [`app/Components/Programs/CertificationPathway/page.jsx`](app/Components/Programs/CertificationPathway/page.jsx)
-
-- **DigitalSkillProgram**: Displays the programs banner section.
-
-  - File: [`app/Components/Programs/PogramsBanner/page.jsx`](app/Components/Programs/PogramsBanner/page.jsx)
-
-- **TrainingPrograms**: Displays the training programs section.
-
-  - File: [`app/Components/Programs/TrainingPrograms/page.jsx`](app/Components/Programs/TrainingPrograms/page.jsx)
-
-- **AboutUSBanner**: Displays the about us banner section.
-
-  - File: [`app/Components/aboutUs/Banner/page.jsx`](app/Components/aboutUs/Banner/page.jsx)
-
-- **EmpoweringSection**: Displays the empowering section.
-
-  - File: [`app/Components/aboutUs/EmpoweringSection/page.jsx`](app/Components/aboutUs/EmpoweringSection/page.jsx)
-
-- **LeaderShip**: Displays the leadership section.
-
-  - File: [`app/Components/aboutUs/LeaderShip/page.jsx`](app/Components/aboutUs/LeaderShip/page.jsx)
-
-- **LeadershipCard**: Displays the leadership cards.
-
-  - File: [`app/Components/aboutUs/LeadershipCards/page.jsx`](app/Components/aboutUs/LeadershipCards/page.jsx)
-
-- **AboutUs**: Displays the about us section.
-  - File: [`app/Components/aboutUs/page.jsx`](app/Components/aboutUs/page.jsx)
-
 ### Shared Components
 
 - **Footer**: Displays the footer section.
 
   - File: [`app/Shared/Footer/page.jsx`](app/Shared/Footer/page.jsx)
 
-- **Navigation**: Displays the navigation bar.
-  - File: [`app/Shared/Navigation/page.jsx`](app/Shared/Navigation/page.jsx)
+- **Header**: Displays the navigation bar.
+  - File: [`app/Shared/Navigation/page.jsx`](app/Shared/Header/page.jsx)
 
 ## Learn More
 
