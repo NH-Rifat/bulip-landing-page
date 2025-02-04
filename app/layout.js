@@ -1,4 +1,5 @@
 import './globals.css';
+import Footer from './Shared/Footer/page';
 import Header from './Shared/Header/page';
 
 // const geistSans = Geist({
@@ -22,7 +23,7 @@ export default function RootLayout({ children }) {
       <body className="font-ubuntu ">
         <Header />
         {children}
-        {/* <Footer/> */}
+        <Footer />
       </body>
     </html>
   );

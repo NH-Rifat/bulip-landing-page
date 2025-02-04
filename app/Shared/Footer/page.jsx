@@ -1,15 +1,19 @@
-import Image from 'next/image'
-import React from 'react'
-import logo from "../../../assets/Logo-Main.png"
-import { MoveRight } from 'lucide-react'
-import Link from 'next/link'
+import { MoveRight } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
 export default function Footer() {
   return (
     <div>
       <footer className="bg-gray-900 text-white ">
         <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-4 gap-8 p-5">
           <div className="">
-            <Image src={logo} alt="BULIPE Logo" className="mb-4" />
+            <Image
+              src={'/assets/Logo-Main.png'}
+              width={176}
+              height={44}
+              alt="BULIPE Logo"
+              className="mb-4"
+            />
             <p className="text-sm text-gray-400">
               Bulipe Tech as a visionary agent collaborates with its parent
               companies from the US and UK to bring forth a far-reaching Digital
@@ -151,7 +155,7 @@ export default function Footer() {
 
         <div className="bg-gray-100 py-4 mt-10">
           <p className="text-center text-sm text-gray-500">
-            © 2025{" "}
+            © 2025{' '}
             <span className="text-primary-normal">Bulipe Tech Limited</span> all
             rights reserved.
           </p>
