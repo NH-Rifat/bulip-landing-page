@@ -1,0 +1,61 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Syne&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* primary needed all BUTTON */
+.btn_primary_full {
+    @apply bg-primary-normal hover:bg-primary-dark text-white;
+
+}
+
+.btn_border-pill {
+    @apply border-2 border-primary-dark hover:bg-primary-light-hover text-primary-dark;
+}
+
+.btn_border-pill_white_bg {
+    @apply border-2 border-primary-normal hover:border-0 hover:bg-[#FBCCBE] hover:text-[#F15B2D] text-black;
+}
+/* END OF BUTTON   */
+
+
+/* home.... begain */
+
+.div_home_banner_bg_and_text_color {
+    @apply bg-secondary-normal text-white;
+}
+.div_home_card{
+    @apply relative bg-white shadow-xl rounded-3xl p-6 max-w-md mx-auto hover:shadow-cyan-200 h-96;
+}
+
+.div_community_bg_and_text_color {
+    @apply bg-base-dark text-white;
+}
+
+.div_hero_bg_and_text_color {
+    @apply bg-[#A6E2E2] text-black;
+}
+
+.div_Enroll_card_bg_and_text_color {
+    @apply bg-white text-black hover:shadow-cyan-200;
+}
+
+.div_partner_section_bg_and_text_color {
+    @apply flex items-center justify-center bg-teal-100 rounded-lg py-6 ;
+}
+
+.div_testimonials {
+    @apply flex flex-col bg-white rounded-r-lg shadow-md border-l-4 border-r-4 hover:border-[#A6E2E2] border-secondary-normal-hover p-4;
+}
+.div_news_leatest {
+    @apply bg-gray-100 rounded-lg flex items-center;
+}
+.div_news_featured {
+    @apply bg-white rounded-lg shadow-md p-4 flex flex-col items-start;
+}
+
+
+/* home.... END */
