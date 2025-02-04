@@ -2,7 +2,19 @@ This is a [Next.js](https://nextjs.org) project Tailwind CSS with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, clone this project:
+
+```bash
+npm install
+# or
+yarn
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
