@@ -2,6 +2,7 @@
 
 import Banner from './Banner/page';
 import BannerCard from './BannerCard/page';
+import OurCommunity from './Community/page';
 import Programs from './Programs/page';
 import Services from './Services/page';
 
@@ -12,6 +13,7 @@ export default function Home() {
       <BannerCard />
       <Services />
       <Programs />
+      <OurCommunity />
     </div>
   );
 }
